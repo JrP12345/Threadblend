@@ -1,7 +1,7 @@
 import mongoose from 'mongoose';
 
 export const connectDB = () => {
-  const atlasConnectionUri = 'mongodb+srv://Threadblend:Jp12345@cluster0.fbityci.mongodb.net/';
+  const atlasConnectionUri = 'mongo_url';
 
   mongoose
     .connect(atlasConnectionUri, {
