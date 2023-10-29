@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/tbfront/static/css/main.2e949ef0.css",
+    "main.js": "/tbfront/static/js/main.a162fb6f.js",
+    "static/js/787.00b29b64.chunk.js": "/tbfront/static/js/787.00b29b64.chunk.js",
+    "index.html": "/tbfront/index.html",
+    "main.2e949ef0.css.map": "/tbfront/static/css/main.2e949ef0.css.map",
+    "main.a162fb6f.js.map": "/tbfront/static/js/main.a162fb6f.js.map",
+    "787.00b29b64.chunk.js.map": "/tbfront/static/js/787.00b29b64.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2e949ef0.css",
+    "static/js/main.a162fb6f.js"
+  ]
+}

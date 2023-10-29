@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap");
+
+.heading {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Cinzel Decorative", cursive;
+  /* background-color: aqua; */
+  padding: 50px 0px;
+}

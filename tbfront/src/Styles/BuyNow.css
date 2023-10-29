@@ -1,0 +1,16 @@
+.product-details-container {
+  /* background-color: aqua; */
+  height: max-content;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.quantity-input-field {
+  padding: 10px;
+  margin-bottom: 30px;
+}
+.product-image {
+  height: 100%;
+  width: 100%;
+}

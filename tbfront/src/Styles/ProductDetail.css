@@ -1,0 +1,72 @@
+.product-details-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.details-row {
+  display: flex;
+}
+
+.details-column {
+  flex: 1;
+  margin-right: 20px;
+  /* background-color: aqua; */
+}
+
+.product-image {
+  /* max-width: 100%; */
+  width: 350px;
+  border-radius: 8px;
+}
+/* Add this to your ProductDetail.css or create a new CSS file */
+
+.related-products-container {
+  margin-top: 20px;
+}
+
+.related-products {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #dddddd #f0f0f0;
+}
+
+.related-product {
+  max-width: 150px;
+  text-align: center;
+}
+
+.related-product a {
+  text-decoration: none;
+  color: #333;
+}
+
+.related-product img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.related-product p {
+  font-size: 14px;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.buybtn {
+  color: white;
+
+  text-decoration: none;
+}
+.buyconbtn {
+  background-color: black;
+  width: 100%;
+  padding: 15px;
+  border: none;
+  margin-top: 10px;
+  border-radius: 5px;
+}

@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap");
+
+nav {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  padding: 10px 0px;
+  top: 0;
+  font-family: "Raleway", sans-serif;
+  z-index: 1000;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.navcontainer {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  min-width: 320px; /* Set a minimum width for smaller screens */
+  max-width: 1240px; /* Set a maximum width for larger screens */
+  margin: 0 auto; /* Center the container horizontally */
+  /* background-color: aqua; */
+}
+.logocontainer {
+  display: flex;
+  align-items: center;
+  /* background-color: blue; */
+}
+.logotxt {
+  font-family: "Sedgwick Ave Display", cursive;
+}
+.serchcontainer {
+  width: 400px;
+  min-width: 150px;
+  /* background-color: black; */
+  margin-left: 20px;
+  padding: 0px 15px 0px 0px;
+}
+.searchinput {
+  width: 100%;
+  padding: 14px 0px 14px 15px;
+  border-radius: 10px;
+  border: none;
+  /* background-color: rgba(102, 135, 70, 0.856); */
+  outline: none;
+  /* min-width: 00px; */
+}
+.navitemcontainer {
+  display: flex;
+  /* background-color:blue; */
+  width: fit-content;
+  /* margin-left: 20px; */
+  cursor: pointer;
+  margin-right: 20px;
+}
+.cattext,
+.nav-link {
+  margin: 0px 5px;
+  /* background-color: aqua; */
+  width: 120px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+.logcartcontainer {
+  display: flex;
+  /* background-color: blue; */
+  align-items: center;
+  width: 200px;
+}
+
+.cartcontainer {
+  /* background-color: aqua; */
+  width: 30px;
+  padding: 8px;
+  cursor: pointer;
+}
+.logoutbtn {
+  padding: 10px;
+  border: none;
+  width: 100%;
+  scale: 1.2;
+  cursor: pointer;
+}
+.logoutcontainer {
+  width: 50px;
+  /* background-color: aqua; */
+}
+.loginncontainer {
+  display: flex;
+  align-items: center;
+  border: none;
+  /* background-color: aqua; */
+  justify-content: center;
+  padding: 0;
+  width: 100px;
+  font-size: 15px;
+}
+/* Basic styling, adjust as needed */
+
+.cartDrawer {
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 600px; /* Adjust the width as needed */
+  background-color: #dec7c7;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  /* Add other styles as needed */
+}
+.closebtn {
+  scale: 2;
+  cursor: pointer;
+  padding: 10px;
+}
+/* Add this to your existing CSS file or create a new one */
+.search-result-container {
+  display: none;
+  position: fixed;
+  top: 80px; /* Adjust the top position as needed */
+  left: 38%;
+  transform: translateX(-50%);
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  max-height: 300px;
+  overflow-y: scroll;
+  z-index: 1000;
+  width: 400px;
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color: transparent transparent; /* Firefox */
+}
+
+.search-result-container::-webkit-scrollbar {
+  width: 10px; /* Set the width of the scrollbar */
+}
+
+.search-result-container::-webkit-scrollbar-thumb {
+  background-color: #afafaf; /* Set the color of the scrollbar thumb */
+  border-radius: 10px; /* Optional: Set border radius for the thumb */
+}
+
+.search-result-container::-webkit-scrollbar-track {
+  background-color: transparent; /* Set the color of the scrollbar track */
+}
+
+.search-result-container.visible {
+  display: block;
+}
